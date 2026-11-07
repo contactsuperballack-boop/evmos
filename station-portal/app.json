@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "EVMOS Station Portal",
+    "slug": "evmos-station-portal",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#0B1F3A"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "EVMOS uses your location to pre-fill your station's coordinates when registering."
+      }
+    },
+    "android": {
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "extra": {
+      "apiBaseUrl": "http://CHANGE-ME-TO-YOUR-LAN-IP:4000"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "EVMOS Driver",
+    "slug": "evmos-driver-app",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#0B1F3A"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "EVMOS uses your location to find nearby charging stations."
+      }
+    },
+    "android": {
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "extra": {
+      "apiBaseUrl": "http://CHANGE-ME-TO-YOUR-LAN-IP:4000"
+    }
+  }
+}
